@@ -1,24 +1,24 @@
-# README
+# rails5-react-redux-tiny-todo-app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a tiny todo app using react and redux.
 
-Things you may want to cover:
+### Prerequisites
 
-* Ruby version
+See [https://github.com/rails/webpacker#prerequisites](https://github.com/rails/webpacker#prerequisites) for details.
 
-* System dependencies
+- Ruby 2.2+
+- Rails 4.2+
+- Node.js 6.4.0+
+- Yarn 0.20.1+
 
-* Configuration
+### Get started
 
-* Database creation
+```
+$ bundle install
+$ rake db:migrate
+$ yarn install
+$ bin/webpack
+$ rails s
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Then, open your browser and navigate to `http://localhost:3000`
